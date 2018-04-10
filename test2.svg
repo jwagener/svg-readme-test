@@ -6,6 +6,20 @@
   <desc>Drawing a Circle in SVG</desc>
   <circle cx="600" cy="200" r="100"
         fill="red" stroke="none" />
+  
+    <defs>
+    <style type="text/css">
+      <![CDATA[
+			@font-face {
+			font-family: Delicious;
+			src: url('http://www.css3.info//wp-content/uploads/2008/06/delicious-roman.otf');
+			}
+      ]]>
+   </style>
+  </defs>
+  <text x="100" y="100"
+           style="font-family: 'Delicious'; font-weight:normal;
+                  font-style: normal">Text using CSS @font-face</text>
 </svg>
 
 
