@@ -1,7 +1,17 @@
-<svg height="30" width="200" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <a xlink:href="https://www.w3schools.com/graphics/" target="_blank">
-    <text x="0" y="15" fill="red">I love SVG!</text>
-  </a>
-  Sorry, your browser does not support inline SVG.
+<?xml version="1.0" standalone="yes"?>
+<svg width="400px" height="300px" version="1.1"
+ xmlns = 'http://www.w3.org/2000/svg'>  
+  <defs>
+    <style type="text/css">
+      <![CDATA[
+			@font-face {
+			font-family: Delicious;
+			src: url('http://www.css3.info//wp-content/uploads/2008/06/delicious-roman.otf');
+			}
+      ]]>
+   </style>
+  </defs>
+  <text x="100" y="100"
+           style="font-family: 'Delicious'; font-weight:normal;
+                  font-style: normal">Text using CSS @font-face</text>
 </svg>
- 
