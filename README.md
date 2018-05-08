@@ -4,3 +4,7 @@ testing:
 ![test](test2.svg)
 
 ![test](test6.svg)
+
+embbeddde svg:
+
+![test](embeddedsvg.svg)
